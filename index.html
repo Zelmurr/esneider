@@ -7,9 +7,57 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="file" name="" id="">
-    <input type="date" name="" id="">
-    <input type="color" name="" id="">
-    <input type="checkbox" name="" id="">
+    <center>
+        <h2 style="margin-top: 90px; color: white;">Registro</h2>
+        <input type="text" placeholder="Usuario">
+        <input type="email" name="" id="" placeholder="Correo">
+        <input type="password" name="" id="" placeholder="Contraseña">
+        <input type="submit" value="Enviar">
+    </center>
+    <style>
+        body {
+            background-image: url(https://images.alphacoders.com/101/1013888.jpg);
+            background-size:cover;
+            width: 500px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        center {
+            background-color: RRGGBB;
+            margin-top: 150px;
+            margin-left: 180px;
+            border: 2px #2c2f40 solid;
+            border-radius: 20%;
+            width: 400px;
+            height: 450px;
+        }
+        input {
+            color: white;
+            display: block; 
+            margin-top: 20px; 
+            border-radius: 20px; 
+            height: 40px; 
+            background-color: transparent;
+            contain: content;
+            width: 220px;
+        }
+        input:focus {
+            transition:ease 0.9s;
+            width: 300px;
+        }
+        input[type = "submit"] {
+            margin: 20px; 
+            height: 30px; 
+            border-radius: 20px; 
+            width: 200px; 
+            color: white;
+            background-color: transparent;
+        }
+        input[type = "submit"]:hover {
+            background-color: green;
+            transition: 0.5s;
+            color: white;
+            border: none;
+        }
+    </style>
 </body>
 </html>
